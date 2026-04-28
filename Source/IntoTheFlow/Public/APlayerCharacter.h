@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "CharacterManager.generated.h"
+#include "APlayerCharacter.generated.h"
 
 UCLASS()
-class INTOTHEFLOW_API ACharacterManager : public ACharacter
+class INTOTHEFLOW_API AAPlayerCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
-	ACharacterManager();
+	AAPlayerCharacter();
 
 protected:
 	// Called when the game starts or when spawned
